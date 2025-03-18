@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container__main">
+        <div class="container__form container">
+            <div class="container__form__card">
+                <h1>Task Manager</h1>
+                <form id="taskForm" class="form">
+                    <input type="text" id="taskTitle" placeholder="Task Title" required maxlength="20" minlength="5">
+                    <label for="taskTitle" class="label--title">Task Title</label>
+
+                    <input typew="text" id="taskDescription" placeholder="Task Description" required maxlength="20" minlength="5">
+                    <label for="taskDescription" class="label--description">Task Description</label>
+                    <button type="submit">Add Task</button>
+                </form>
+            </div>
+        </div>
+        <div class="container__tasks container">
+            <h1>Tasks</h1>
+            <div id="taskList" class="container__task"></div>
+            <!-- Tasks will be listed here -->
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+

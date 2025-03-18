@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+}
+.choices button{
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    border-radius: 50px;
+    margin: 10px;
+    background-color:aqua;
+    transition: 2s;
+}
+
+.choices button:hover{
+    background-color:lightgreen;
+}
+.display{
+    margin: 10px;
+    font-size: 1.7rem;
+}
+
+.score{
+    font-size: 1.3rem;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Connection-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Rock - Paper - Scissors</h1>
+    <div class="choices">
+        <button onclick="start('rock')">👊</button>
+        <button onclick="start('paper')">✋</button>
+        <button onclick="start('scissor')">✌️</button>
+    </div>
+
+    <h3 id="playerDisplay" class="display">Player: </h3>
+    <h3 id="compDisplay" class="display">Computer: </h3>
+    <h2 id="">Result:<span id="resultDisplay"></span></h2>
+    <p class="score">Player score: <span id="playerScore">0</span></p>
+    <p class="score">Computer score: <span id="compScore">0</span></p>
+    
+    <!-- JavaScript Connection-->
+    <script src="index.js"></script>
+
+
+</body>
+</html>

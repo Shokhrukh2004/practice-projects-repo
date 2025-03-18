@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="practice.css">
+        <script src="https://kit.fontawesome.com/d9b01b61af.js" crossorigin="anonymous"></script>
+        <title>Welcome To Burger Shop!</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="page_1" id="home">
+                <div class="container">
+                    <div class="page_1_background"><img src="img/home-img.jpeg"></div>
+                    <div class="search" id="search">
+                        <input type="search" placeholder="search here..." ><i class="fas fa-search"></i>
+                    </div>
+                    <header class="header">
+                        <div class="logo">
+                            <img src="img/logo.png">
+                        </div>
+                        <nav class="navbar" id="navbar">
+                            <i class="far fa-times-circle" onclick="hideMenu1()"></i>
+                            <a href="#"><i class="fas fa-home"></i>home</a>
+                            <a href="#about_us"><i class="fas fa-address-card"></i>about</a>
+                            <a href="#menu"><i class="fas fa-address-card"></i>menu</a>
+                            <a href="#products"><i class="fas fa-store"></i>products</a>
+                            <a href="#review"><i class="fas fa-award"></i>review</a>
+                            <a href="#contact"><i class="fas fa-address-book"></i>contact</a>
+                            <a href="#blogs"><i class="fas fa-blog"></i>blogs</a>
+                        </nav>
+                        <div class="buttons">
+                            <i class="fas fa-search" onclick="showMenu3()" ondblclick="hideMenu3()"></i>
+                            <i class="fas fa-shopping-cart" onclick="showMenu2()"></i>
+                            <i class="fas fa-bars" onclick="showMenu1()"></i>
+                    
+                        </div>
+                    </header>
+                    <div class="shopping" id="shop">
+                        <i class="far fa-times-circle" onclick="hideMenu2()"></i>
+                        <div class="shopping_elements">
+                            <img src="img/cart-item-1.png">
+                            <h1>buy now for sale</h1>
+                            <h2>$19.99</h2>
+                        </div>
+                        <div class="shopping_elements">
+                            <img src="img/cart-item-2.png">
+                            <h1>buy now for sale</h1>
+                            <h2>$19.99</h2>
+                        </div>
+                        <div class="shopping_elements">
+                            <img src="img/cart-item-3.png">
+                            <h1>buy now for sale</h1>
+                            <h2>$19.99</h2>
+                        </div>
+                        <div class="shopping_elements">
+                            <img src="img/cart-item-4.png">
+                            <h1>buy now for sale</h1>
+                            <h2>$19.99</h2>
+                        </div>
+                    </div>
+                   
+                    <section class="page_1_body">
+                        <h1>fresh coffee in the morning</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores</p>
+                        <p> quas tempore tenetur velit perspiciatis sint.</p>
+                        <input type="submit" class="submit" value="get it now">
+                    </section>
+                </div>
+            </div>
+            <div class="page_2" id="about_us">
+                <h1 class="heading"><span>about</span> us</h1>
+                <div class="page_2_flex_container">
+                    <div class="page_2_flex_element_1">
+                        <img src="img/about-img.jpeg">
+                    </div>
+                    <div class="page_2_flex_element_2">
+                        <h1>what makes our coffee special?</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit omnis quae
+                             necessitatibus nisi offionsequatur vero, rem saepe. Eaque.
+                             rem ipsum dolor sit amet consectetur adipisicing elit. Suscipit omnis quae
+                             necessitatibus nisi offionsequatur
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quae in veritatis repellendus tempora ipsa!
+                            Lorem ipsum dolor sit amet consectetur, ad
+                        </p>
+                        <input type="submit" class="submit" value="learn more">
+                    </div>
+                </div>
+            </div>
+            <div class="page_3" id="menu">
+                <h1 class="heading">our <span>menu</span></h1>
+                <div class="page_3_flex_container">
+                    <div class="page_3_flex_element">
+                        <img src="img/menu-1.png">
+                        <h1>tasty and healthy</h1>
+                        <h1>$15.99 <span>$20.99</span></h1>
+                        <input type="submit" class="submit" value="add to cart">
+                    </div>
+                    <div class="page_3_flex_element">
+                        <img src="img/menu-2.png">
+                        <h1>tasty and healthy</h1>
+                        <h1>$15.99 <span>$20.99</span></h1>
+                        <input type="submit" class="submit" value="add to cart">
+                    </div>
+                    <div class="page_3_flex_element">
+                        <img src="img/menu-3.png">
+                        <h1>tasty and healthy</h1>
+                        <h1>$15.99 <span>$20.99</span></h1>
+                        <input type="submit" class="submit" value="add to cart">
+                    </div>
+                    <div class="page_3_flex_element">
+                        <img src="img/menu-4.png">
+                        <h1>tasty and healthy</h1>
+                        <h1>$15.99 <span>$20.99</span></h1>
+                        <input type="submit" class="submit" value="add to cart">
+                    </div>
+                    <div class="page_3_flex_element">
+                        <img src="img/menu-5.png">
+                        <h1>tasty and healthy</h1>
+                        <h1>$15.99 <span>$20.99</span></h1>
+                        <input type="submit" class="submit" value="add to cart">
+                    </div>
+                    <div class="page_3_flex_element">
+                        <img src="img/menu-6.png">
+                        <h1>tasty and healthy</h1>
+                        <h1>$15.99 <span>$20.99</span></h1>
+                        <input type="submit" class="submit" value="add to cart">
+                    </div>
+                </div>
+            </div>
+            <div class="page_4" id="products">
+                <h1 class="heading">latest <span>products</span></h1>
+                <div class="page_4_flex_container">
+                    <div class="page_4_flex_element">
+                        <div class="smiles_container">
+                            <div class="smiles_element"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-heart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-eye"></i></div>
+                        </div>
+                        <img src="img/product-1.png">
+                        <h1>fresh coffee</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                        <h1 class="cost">$15.99 <span>20.99</span></h1>
+                    </div>
+                    <div class="page_4_flex_element">
+                        <div class="smiles_container">
+                            <div class="smiles_element"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-heart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-eye"></i></div>
+                        </div>
+                        <img src="img/product-1.png">
+                        <h1>fresh coffee</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                        <h1 class="cost">$15.99 <span>20.99</span></h1>
+                    </div>
+                    <div class="page_4_flex_element">
+                        <div class="smiles_container">
+                            <div class="smiles_element"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-heart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-eye"></i></div>
+                        </div>
+                        <img src="img/product-3.png">
+                        <h1>fresh coffee</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                        <h1 class="cost">$15.99 <span>20.99</span></h1>
+                    </div>
+                    <div class="page_4_flex_element">
+                        <div class="smiles_container">
+                            <div class="smiles_element"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-heart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-eye"></i></div>
+                        </div>
+                        <img src="img/product-1.png">
+                        <h1>fresh coffee</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                        <h1 class="cost">$15.99 <span>20.99</span></h1>
+                    </div>
+                    <div class="page_4_flex_element">
+                        <div class="smiles_container">
+                            <div class="smiles_element"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-heart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-eye"></i></div>
+                        </div>
+                        <img src="img/product-2.png">
+                        <h1>fresh coffee</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                        <h1 class="cost">$15.99 <span>20.99</span></h1>
+                    </div>
+                    <div class="page_4_flex_element">
+                        <div class="smiles_container">
+                            <div class="smiles_element"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-heart"></i></div>
+                            <div class="smiles_element"><i class="fas fa-eye"></i></div>
+                        </div>
+                        <img src="img/product-3.png">
+                        <h1>fresh coffee</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                        <h1 class="cost">$15.99 <span>20.99</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="page_5" id="review">
+                <h1 class="heading">customer's <span>review</span></h1>
+                <div class="page_5_flex_container">
+                    <div class="page_5_flex_element">
+                        <img src="img/quote-img.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Placeat, perspiciatis totam similique eum magni unde fugit nisi 
+                        </p>
+                        <img src="img/pic-1.png">
+                        <h1>erick dickson</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                    </div>
+                    <div class="page_5_flex_element">
+                        <img src="img/quote-img.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Placeat, perspiciatis totam similique eum magni unde fugit nisi 
+                        </p>
+                        <img src="img/pic-2.png">
+                        <h1>nikki minaj</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                    </div>
+                    <div class="page_5_flex_element">
+                        <img src="img/quote-img.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Placeat, perspiciatis totam similique eum magni unde fugit nisi 
+                        </p>
+                        <img src="img/pic-3.png">
+                        <h1>erick dickson</h1>
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page_6" id="contact">
+                <h1 class="heading"><span>contact</span> us</h1>
+                <div class="page_6_flex_container page_6_flex_element_1">
+                    <div class="page_6_flex_element">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47508.509004131454!2d69.18959844024602!3d41.29280782317392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1643295618609!5m2!1sru!2s" 
+                            width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+                    </div>
+                    <div class="page_6_flex_element page_6_flex_element_2">
+                        <h1>get in touch</h1>
+                        <div class="contact"><i class="fas fa-user-secret"></i><input type="text" placeholder="name"></div>
+                        <div class="contact"><i class="fas fa-envelope-open-text"></i><input type="email" placeholder="email"></div>
+                        <div class="contact"><i class="fas fa-phone-volume"></i><input type="text" placeholder="number"></div>
+                        <input type="submit" class="submit" value="contact now">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="page_7" id="blogs">
+                <h1 class="heading">our <span>blogs</span></h1>
+                <div class="page_7_flex_container">
+                    <div class="page_7_flex_element">
+                        <div class="page_7_flex_child_1">
+                            <img src="img/blog-1.jpeg">
+                        </div>
+                        <div class="page_7_flex_child_2">
+                            <h2>testy and refreshing coffee</h2>
+                            <h3>by shoxrux / 27th of january, 2022</h3>
+                            <p>Lorem ipsum dolor sit sit sit sit sit  elit!</p>
+                            <input type="submit" value="Read more" class="submit">
+                        </div>
+                    </div>
+                    <div class="page_7_flex_element">
+                        <div class="page_7_flex_child_1">
+                            <img src="img/blog-2.jpeg">
+                        </div>
+                        <div class="page_7_flex_child_2">
+                            <h2>testy and refreshing coffee</h2>
+                            <h3>by shoxrux / 27th of january, 2022</h3>
+                            <p>Lorem ipsum dolor sit sit sit sit sit  elit!</p>
+                            <input type="submit" value="Read more" class="submit">
+                        </div>
+                    </div>
+                    <div class="page_7_flex_element">
+                        <div class="page_7_flex_child_1">
+                            <img src="img/blog-3.jpeg">
+                        </div>
+                        <div class="page_7_flex_child_2">
+                            <h2>testy and refreshing coffee</h2>
+                            <h3>by shoxrux / 27th of january, 2022</h3>
+                            <p>Lorem ipsum dolor sit sit sit sit sit  elit!</p>
+                            <input type="submit" value="Read more" class="submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer_flex_container">
+                    <div class="footer_flex_element">
+                        <i class="fab fa-facebook-square"></i>
+                    </div>
+                    <div class="footer_flex_element">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="footer_flex_element">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="footer_flex_element">
+                        <i class="fab fa-youtube-square"></i>
+                    </div>
+                    <div class="footer_flex_element">
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+                <div class="footer_flex_container_2">
+                    <div class="menu_2" ><a href="#home">home</a></div>
+                    <div class="menu_2"><a href="#about_us">about us</a></div>
+                    <div class="menu_2"><a href="#menu">menu</a></div>
+                    <div class="menu_2"><a href="#products">products</a></div>
+                    <div class="menu_2"><a href="#review">review</a></div>
+                    <div class="menu_2"><a href="#contact">contacts</a></div>
+                    <div class="menu_2"><a href="#blogs">blogs</a></div>
+                </div>
+                <h2 class="shoxrux">created by  <span> ernazarov shoxrux </span> |   all rights reserved</h2>
+
+            </footer>
+        </div>
+
+
+        <script>
+            var navbar = document.getElementById('navbar');
+
+            function showMenu1(){
+                navbar.style.right ="0";
+            }
+
+            function hideMenu1(){
+                navbar.style.right ="-100vw";
+            }
+            var search = document.getElementById('search');
+
+            function showMenu3(){
+                search.style.left ="0";
+            }
+
+            function hideMenu3(){
+                search.style.left ="-200vw";
+            }
+            var shop = document.getElementById('shop');
+
+            function showMenu2(){
+                shop.style.right ="0";
+            }
+
+            function hideMenu2(){
+                shop.style.right ="-200vw";
+            }
+
+
+        </script>
+
+    </body>
+</html>
