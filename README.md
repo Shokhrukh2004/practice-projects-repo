@@ -16,25 +16,25 @@ This repository contains projects in the following categories:
 ### Frontend Projects
 - **[Coffee Store Website](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/frontend-dev/html-css/coffee-store-web)**
   - Description: This is a coffee store website.
-  - **Teck stacks** HTML, CSS
+  - **Teck stacks->** HTML, CSS
  
 - **[Simple Portfolio Website](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/frontend-dev/html-css/simple-web_exp)**
   - Description: Its a portfolio website, not fully completed.
-  - **Teck stacks** HTML, CSS
+  - **Teck stacks->** HTML, CSS
 
 ### Fullstack Projects
 - **[Clock Web App](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/fullstack-dev/javascript/clock-app)**
   - Description: Its a clock website that provides several functionalities like alarm, timer, stopwatch and current date time. Though not written in the best way possible.
-  - **Teck stacks** HTML, CSS, JavaScript
+  - **Teck stacks->** HTML, CSS, JavaScript
     
 - **[Task Manager](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/fullstack-dev/javascript/task-manager-web-app)**
   - Description: Its a task manager web app that you can add, remove, toggle the tasks and some more other featers. Added some good animations and background shadow and coloring to make it look modern.
-  - **Teck stacks** HTML, CSS, JavaScript
+  - **Teck stacks->** HTML, CSS, JavaScript
 
 ### Game Development Projects
-- **[Snake Game]([https://github.com/your-username/your-repo](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/game-dev/java/snake-game))**
+- **[Snake Game](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/game-dev/java/snake-game))**
   - Description: A classical snake game.
-  - **Teck stacks** Java, Swing for GUI.
+  - **Teck stacks->** Java, Swing for GUI.
 
 ### Desktop Projects
 
