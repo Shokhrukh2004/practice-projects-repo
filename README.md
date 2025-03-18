@@ -32,9 +32,14 @@ This repository contains projects in the following categories:
   - **Teck stacks->** HTML, CSS, JavaScript
 
 ### Game Development Projects
-- **[Snake Game](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/game-dev/java/snake-game))**
+- **[Snake Game](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/game-dev/java/snake-game)**
   - Description: A classical snake game.
   - **Teck stacks->** Java, Swing for GUI.
+
+- **[Tic Tac Toe](https://github.com/Shokhrukh2004/practice-projects-repo/tree/master/game-dev/c-language/tic-tac-toe)**
+  - Description: A simple tic tac toe, but without the graphical user interface and runs in terminal, using C language.
+  - **Teck stacks->** C .
+    
 
 ### Desktop Projects
 
