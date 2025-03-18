@@ -47,3 +47,6 @@ This repository contains projects in the following categories:
 ## 💡 How to Contribute
 If you'd like to contribute to any of these projects, feel free to fork the repository and submit a pull request with your improvements, bug fixes, or feature suggestions. Please make sure to follow the code of conduct and maintain consistency with the existing project structure.
 
+##  📜 License
+This repository is open-source and available under the MIT License. Feel free to contribute and use it!
+
