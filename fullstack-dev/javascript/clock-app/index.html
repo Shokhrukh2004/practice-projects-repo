@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- CSS Connection-->
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+
+</head>
+<body>
+    <div class="main">
+        <div class="time-container container">
+            <h1>Current Time</h1>
+            <p class="date" id="time-date">2024 october 8, tuesday</p>
+            <p id="time-time">00:00:00</p>
+        </div>
+        <div class="timer-container container">
+            <h1>Timer</h1>
+            <div class="up-button button-container">
+                <button onclick="timer_hour_up('timer')"><img src="images/up-arrow.png"></button>
+                <button onclick="timer_minute_up('timer')"><img src="images/up-arrow.png"></button>
+                <button onclick="timer_second_up('timer')"><img src="images/up-arrow.png"></button>
+            </div>
+            <p><span id="timer-time-hour">00</span>:<span id="timer-time-minute">00</span>:<span id="timer-time-second">00</span></p>
+            <div class="down-button button-container">
+                <button onclick="timer_hour_down('timer')"><img src="images/down-arrow.png"></button>
+                <button onclick="timer_minute_down('timer')"><img src="images/down-arrow.png"></button>
+                <button onclick="timer_second_down('timer')"><img src="images/down-arrow.png"></button>
+            </div>
+            <div class="timer-action-buttons action-button-container">
+                <button onclick="timer_start()" id="timer-start-button">start</button>
+                <button onclick="timer_stop()">stop</button>
+                <button onclick="timer_restart()">restart</button>
+            </div>
+        </div>
+        <div class="stop-watch-container container">
+            <h1>Stopwatch</h1>
+            <p id="watch-time">00:00:00:00</p>
+            <div class="stopwatch-action-buttons action-button-container">
+                <button onclick="watch_start()">start</button>
+                <button onclick="watch_stop()">stop</button>
+                <button onclick="watch_restart()">restart</button>
+            </div>
+        </div>
+        <div class="alarm-container container">
+            <h1>Alarms</h1>
+            <div class="up-button button-container">
+                <button onclick="timer_hour_up('alarm')"><img src="images/up-arrow.png"></button>
+                <button onclick="timer_minute_up('alarm')"><img src="images/up-arrow.png"></button>
+                <button onclick="timer_second_up('alarm')"><img src="images/up-arrow.png"></button>
+            </div>
+            <p id="alarm-time"><span id="alarm-time-hour">00</span>:<span id="alarm-time-minute">00</span>:<span id="alarm-time-second">00</span></p>
+            <div class="down-button button-container">
+                <button onclick="timer_hour_down('alarm')"><img src="images/down-arrow.png"></button>
+                <button onclick="timer_minute_down('alarm')"><img src="images/down-arrow.png"></button>
+                <button onclick="timer_second_down('alarm')"><img src="images/down-arrow.png"></button>
+            </div>
+            <div class="alarm-action-buttons action-button-container">
+                <button onclick="alarm_start()" id="alarm-start-button">On</button>
+                <button onclick="alarm_stop()">Off</button>
+                <button onclick="alarm_restart()">restart</button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript Connection-->
+    <script src="index.js"></script>
+</body>
+</html>
+
+
